@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+h1 {
+  margin: 50px;
+  font-size: 3em;
+}
+
+section {
+  background-color: gray;
+  border: 3px solid black;
+  height: 180px;
+  margin: 10px 10px 10px 10px;
+}
+.cont {
+  width: 100%;
+}
+h3 {
+  background-color: pink;
+  border: 3px solid black;
+  float: right;
+  padding: 5px;
+  margin: 0px;
+  font-size: 1.5em;
+}
+p {
+  clear: right;
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+    float: left;
+  }
+}
+
+.be {
+  background-color: mediumvioletred;
+  color: white;
+}
+.su {
+  background-color: rgb(249, 230, 133);
+}
